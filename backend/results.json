@@ -1,0 +1,20 @@
+[
+  {
+    "input": "1 2",
+    "expectedOutput": "3",
+    "actualOutput": "3",
+    "success": true
+  },
+  {
+    "input": "2 3",
+    "expectedOutput": "5",
+    "actualOutput": "5",
+    "success": true
+  },
+  {
+    "input": "5 11",
+    "expectedOutput": "16",
+    "actualOutput": "Error: too many values to unpack (expected 2)",
+    "success": false
+  }
+]
